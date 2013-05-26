@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kstdoc version="1.3">
+  <windowsize>
+    <width>665</width>
+    <height>666</height>
+    <active name="W1"/>
+  </windowsize>
+  <graphicsautosave time="1" enabled="false" format="PNG" xsize="1280" ysize="480" display="2" square="false" />
+  <kstfile>
+    <tag>DS-tmp.dat</tag>
+    <filename>/home/cbn/tmp.dat</filename>
+    <type>ASCII</type>
+    <index vector="INDEX" interpretation="1"/>
+    <comment delimiters="#/c!;"/>
+    <columns type="0"/>
+    <header start="0"/>
+  </kstfile>
+  <vector>
+    <tag>DS-tmp.dat/INDEX</tag>
+    <provider>DS-tmp.dat</provider>
+    <filename>/home/cbn/tmp.dat</filename>
+    <field>INDEX</field>
+    <start>0</start>
+    <num>-1</num>
+  </vector>
+  <vector>
+    <tag>DS-tmp.dat/1</tag>
+    <provider>DS-tmp.dat</provider>
+    <filename>/home/cbn/tmp.dat</filename>
+    <field>1</field>
+    <start>0</start>
+    <num>-1</num>
+  </vector>
+  <vector>
+    <tag>DS-tmp.dat/2</tag>
+    <provider>DS-tmp.dat</provider>
+    <filename>/home/cbn/tmp.dat</filename>
+    <field>2</field>
+    <start>0</start>
+    <num>-1</num>
+  </vector>
+  <vector>
+    <tag>DS-tmp.dat/3</tag>
+    <provider>DS-tmp.dat</provider>
+    <filename>/home/cbn/tmp.dat</filename>
+    <field>3</field>
+    <start>0</start>
+    <num>-1</num>
+  </vector>
+  <vector>
+    <tag>DS-tmp.dat/4</tag>
+    <provider>DS-tmp.dat</provider>
+    <filename>/home/cbn/tmp.dat</filename>
+    <field>4</field>
+    <start>0</start>
+    <num>-1</num>
+  </vector>
+  <curve>
+    <tag>1</tag>
+    <xvectag>DS-tmp.dat/INDEX</xvectag>
+    <yvectag>DS-tmp.dat/1</yvectag>
+    <legend>Column 1</legend>
+    <interp>0</interp>
+    <hasMinus/>
+    <color>#ff0000</color>
+    <hasLines/>
+    <lineWidth>0</lineWidth>
+    <lineStyle>0</lineStyle>
+    <pointType>0</pointType>
+    <pointDensity>0</pointDensity>
+    <barStyle>0</barStyle>
+  </curve>
+  <curve>
+    <tag>2</tag>
+    <xvectag>DS-tmp.dat/INDEX</xvectag>
+    <yvectag>DS-tmp.dat/2</yvectag>
+    <legend>Column 2</legend>
+    <interp>0</interp>
+    <hasMinus/>
+    <color>#0000ff</color>
+    <hasLines/>
+    <lineWidth>0</lineWidth>
+    <lineStyle>0</lineStyle>
+    <pointType>0</pointType>
+    <pointDensity>0</pointDensity>
+    <barStyle>0</barStyle>
+  </curve>
+  <curve>
+    <tag>3</tag>
+    <xvectag>DS-tmp.dat/INDEX</xvectag>
+    <yvectag>DS-tmp.dat/3</yvectag>
+    <legend>Column 3</legend>
+    <interp>0</interp>
+    <hasMinus/>
+    <color>#0000aa</color>
+    <hasLines/>
+    <lineWidth>0</lineWidth>
+    <lineStyle>0</lineStyle>
+    <pointType>0</pointType>
+    <pointDensity>0</pointDensity>
+    <barStyle>0</barStyle>
+  </curve>
+  <curve>
+    <tag>4</tag>
+    <xvectag>DS-tmp.dat/INDEX</xvectag>
+    <yvectag>DS-tmp.dat/4</yvectag>
+    <legend>Column 4</legend>
+    <interp>0</interp>
+    <hasMinus/>
+    <color>#000000</color>
+    <hasLines/>
+    <lineWidth>0</lineWidth>
+    <lineStyle>0</lineStyle>
+    <pointType>0</pointType>
+    <pointDensity>0</pointDensity>
+    <barStyle>0</barStyle>
+  </curve>
+  <plot>
+    <border color="#000000" width="0" padding="0" margin="0" />
+    <tag>P1</tag>
+    <aspect x="0" y="0" w="1" h="0.5" />
+    <idealsize w="1276" h="324" />
+    <name>P1</name>
+    <borderColor>#000000</borderColor>
+    <borderWidth>0</borderWidth>
+    <foregroundColor>#000000</foregroundColor>
+    <backgroundColor>#ffffff</backgroundColor>
+    <margin>0</margin>
+    <padding>0</padding>
+    <xscalemode>0</xscalemode>
+    <yscalemode>5</yscalemode>
+    <xscalemodedefault>0</xscalemodedefault>
+    <yscalemodedefault>5</yscalemodedefault>
+    <xmin>0</xmin>
+    <xmax>605</xmax>
+    <ymin>-0.631665</ymin>
+    <ymax>25.898265</ymax>
+    <xreversed>0</xreversed>
+    <yreversed>0</yreversed>
+    <toplabel>
+      <text></text>
+      <interpret/>
+      <rotation>0</rotation>
+      <justify>1</justify>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </toplabel>
+    <xlabel>
+      <text>INDEX</text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </xlabel>
+    <ylabel>
+      <text>Y Label</text>
+      <interpret/>
+      <rotation>270</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </ylabel>
+    <xticklabel>
+      <text>600</text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </xticklabel>
+    <yticklabel>
+      <text>25</text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </yticklabel>
+    <xfullticklabel>
+      <text></text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </xfullticklabel>
+    <xlogbase>10</xlogbase>
+    <ylogbase>10</ylogbase>
+    <curvetag>1</curvetag>
+    <curvetag>3</curvetag>
+    <xmajorgrid>1</xmajorgrid>
+    <ymajorgrid>1</ymajorgrid>
+    <xminorgrid>0</xminorgrid>
+    <yminorgrid>0</yminorgrid>
+    <majorgridcolor>#808080</majorgridcolor>
+    <minorgridcolor>#808080</minorgridcolor>
+    <majorgridcolordefault>1</majorgridcolordefault>
+    <minorgridcolordefault>1</minorgridcolordefault>
+    <majorpenwidth>1</majorpenwidth>
+    <minorpenwidth>1</minorpenwidth>
+    <axispenwidth>1</axispenwidth>
+    <xminorticks>-1</xminorticks>
+    <yminorticks>-1</yminorticks>
+    <xmajorticks>5</xmajorticks>
+    <ymajorticks>5</ymajorticks>
+    <xticksinplot>1</xticksinplot>
+    <xticksoutplot>0</xticksoutplot>
+    <yticksinplot>1</yticksinplot>
+    <yticksoutplot>0</yticksoutplot>
+    <suppresstop>0</suppresstop>
+    <suppressbottom>0</suppressbottom>
+    <suppressleft>0</suppressleft>
+    <suppressright>0</suppressright>
+    <xtransformed>0</xtransformed>
+    <ytransformed>0</ytransformed>
+    <xtransformedexp></xtransformedexp>
+    <ytransformedexp></ytransformedexp>
+    <xinterpret>0</xinterpret>
+    <xinterpretas>1</xinterpretas>
+    <xdisplayas>4</xdisplayas>
+    <yinterpret>0</yinterpret>
+    <yinterpretas>1</yinterpretas>
+    <ydisplayas>4</ydisplayas>
+    <xoffsetmode>0</xoffsetmode>
+    <yoffsetmode>0</yoffsetmode>
+    <stylemarker>0</stylemarker>
+    <widthmarker>0</widthmarker>
+    <colormarker>#000000</colormarker>
+    <defaultcolormarker>1</defaultcolormarker>
+    <autoLabelTop>1</autoLabelTop>
+    <autoLabelX>1</autoLabelX>
+    <autoLabelY>0</autoLabelY>
+  </plot>
+  <plot>
+    <border color="#000000" width="0" padding="0" margin="0" />
+    <tag>P2</tag>
+    <aspect x="0" y="0.5" w="1" h="0.5" />
+    <idealsize w="1276" h="324" />
+    <name>P2</name>
+    <borderColor>#000000</borderColor>
+    <borderWidth>0</borderWidth>
+    <foregroundColor>#000000</foregroundColor>
+    <backgroundColor>#ffffff</backgroundColor>
+    <margin>0</margin>
+    <padding>0</padding>
+    <xscalemode>0</xscalemode>
+    <yscalemode>5</yscalemode>
+    <xscalemodedefault>0</xscalemodedefault>
+    <yscalemodedefault>5</yscalemodedefault>
+    <xmin>0</xmin>
+    <xmax>605</xmax>
+    <ymin>-0.6737975</ymin>
+    <ymax>27.6256975</ymax>
+    <xreversed>0</xreversed>
+    <yreversed>0</yreversed>
+    <toplabel>
+      <text></text>
+      <interpret/>
+      <rotation>0</rotation>
+      <justify>1</justify>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </toplabel>
+    <xlabel>
+      <text>INDEX</text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </xlabel>
+    <ylabel>
+      <text>Y Label</text>
+      <interpret/>
+      <rotation>270</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </ylabel>
+    <xticklabel>
+      <text>600</text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </xticklabel>
+    <yticklabel>
+      <text>25</text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </yticklabel>
+    <xfullticklabel>
+      <text></text>
+      <interpret/>
+      <rotation>0</rotation>
+      <fontfamily>Liberation Sans</fontfamily>
+      <size>12</size>
+    </xfullticklabel>
+    <xlogbase>10</xlogbase>
+    <ylogbase>10</ylogbase>
+    <curvetag>2</curvetag>
+    <curvetag>4</curvetag>
+    <xmajorgrid>1</xmajorgrid>
+    <ymajorgrid>1</ymajorgrid>
+    <xminorgrid>0</xminorgrid>
+    <yminorgrid>0</yminorgrid>
+    <majorgridcolor>#808080</majorgridcolor>
+    <minorgridcolor>#808080</minorgridcolor>
+    <majorgridcolordefault>1</majorgridcolordefault>
+    <minorgridcolordefault>1</minorgridcolordefault>
+    <majorpenwidth>1</majorpenwidth>
+    <minorpenwidth>1</minorpenwidth>
+    <axispenwidth>1</axispenwidth>
+    <xminorticks>-1</xminorticks>
+    <yminorticks>-1</yminorticks>
+    <xmajorticks>5</xmajorticks>
+    <ymajorticks>5</ymajorticks>
+    <xticksinplot>1</xticksinplot>
+    <xticksoutplot>0</xticksoutplot>
+    <yticksinplot>1</yticksinplot>
+    <yticksoutplot>0</yticksoutplot>
+    <suppresstop>0</suppresstop>
+    <suppressbottom>0</suppressbottom>
+    <suppressleft>0</suppressleft>
+    <suppressright>0</suppressright>
+    <xtransformed>0</xtransformed>
+    <ytransformed>0</ytransformed>
+    <xtransformedexp></xtransformedexp>
+    <ytransformedexp></ytransformedexp>
+    <xinterpret>0</xinterpret>
+    <xinterpretas>1</xinterpretas>
+    <xdisplayas>4</xdisplayas>
+    <yinterpret>0</yinterpret>
+    <yinterpretas>1</yinterpretas>
+    <ydisplayas>4</ydisplayas>
+    <xoffsetmode>0</xoffsetmode>
+    <yoffsetmode>0</yoffsetmode>
+    <stylemarker>0</stylemarker>
+    <widthmarker>0</widthmarker>
+    <colormarker>#000000</colormarker>
+    <defaultcolormarker>1</defaultcolormarker>
+    <autoLabelTop>1</autoLabelTop>
+    <autoLabelX>1</autoLabelX>
+    <autoLabelY>0</autoLabelY>
+  </plot>
+  <window>
+    <tag>W1</tag>
+    <restore x="2" y="2" w="661" h="580" />
+    <internal x="2" y="2" w="661" h="580" />
+    <name>W1</name>
+    <backgroundColor>#eeeee6</backgroundColor>
+    <Plot>
+      <tag>P1</tag>
+      <Legend>
+        <border color="#000000" width="2" padding="0" margin="0" />
+        <border color="#000000" width="2" padding="0" margin="0" />
+        <tag>Object 126</tag>
+        <aspect x="0.097962382445141" y="0.14197530864198" w="0.2" h="0.1" />
+        <idealsize w="1" h="1" />
+        <name>unnamed</name>
+        <borderColor>#000000</borderColor>
+        <borderWidth>2</borderWidth>
+        <foregroundColor>#000000</foregroundColor>
+        <backgroundColor>#ffffff</backgroundColor>
+        <margin>0</margin>
+        <padding>0</padding>
+        <font>Arial</font>
+        <fontSize>12</fontSize>
+        <transparent>false</transparent>
+        <trackContents>false</trackContents>
+        <legendMargin>5</legendMargin>
+        <vertical>true</vertical>
+        <title></title>
+        <curvetag>1</curvetag>
+        <curvetag>3</curvetag>
+      </Legend>
+    </Plot>
+    <Plot>
+      <tag>P2</tag>
+      <Legend>
+        <border color="#000000" width="2" padding="0" margin="0" />
+        <border color="#000000" width="2" padding="0" margin="0" />
+        <tag>Object 127</tag>
+        <aspect x="0.093260188087774" y="0.15123456790123" w="0.2" h="0.1" />
+        <idealsize w="1" h="1" />
+        <name>unnamed</name>
+        <borderColor>#000000</borderColor>
+        <borderWidth>2</borderWidth>
+        <foregroundColor>#000000</foregroundColor>
+        <backgroundColor>#ffffff</backgroundColor>
+        <margin>0</margin>
+        <padding>0</padding>
+        <font>Arial</font>
+        <fontSize>12</fontSize>
+        <transparent>false</transparent>
+        <trackContents>false</trackContents>
+        <legendMargin>5</legendMargin>
+        <vertical>true</vertical>
+        <title></title>
+        <curvetag>2</curvetag>
+        <curvetag>4</curvetag>
+      </Legend>
+    </Plot>
+  </window>
+</kstdoc>

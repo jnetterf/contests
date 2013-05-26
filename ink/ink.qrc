@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>inkPaste.png</file>
+        <file>inkCut.png</file>
+        <file>inkCopy.png</file>
+        <file>inkFillColor.png</file>
+        <file>inkFontSizeLess.png</file>
+        <file>inkFontSizeMore.png</file>
+        <file>inkSubscript.png</file>
+        <file>inkSuperscript.png</file>
+        <file>inkTextBold.png</file>
+        <file>inkTextColor.png</file>
+        <file>inkTextItalic.png</file>
+        <file>inkTextStrikethrough.png</file>
+        <file>inkUnderline.png</file>
+        <file>inkAlignCenter.png</file>
+        <file>inkAlignLeft.png</file>
+        <file>inkAlignRight.png</file>
+        <file>inkSpacing.png</file>
+        <file>inkBullets.png</file>
+        <file>inkNumbering.png</file>
+        <file>inkIndentDecr.png</file>
+        <file>inkIndentIncr.png</file>
+        <file>inkSort.png</file>
+        <file>inkBorder.png</file>
+        <file>inkAlignJustify.png</file>
+    </qresource>
+    <qresource prefix="/style">
+        <file alias="styleSheet.txt">styleSheet.txt</file>
+    </qresource>
+</RCC>

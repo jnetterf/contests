@@ -1,0 +1,11 @@
+<supertoolbar>
+  <tab title="home">
+    <section title="clipboard">
+      <toolbutton size="full" icon="inkPaste.jpeg" menu="s_ink->getClipboard(),SIGNAL(menuChanged(QMenu*));" onClick="s_ink->getClipboard(),SLOT(paste())"/>
+      <toolbutton size="small" icon="inkCut.jpeg" onClick="s_ink->getClipboard(),SLOT(cut());" enabled="s_ink->getClipboard(),SIGNAL(selectionChanged(bool))"/>
+      <toolbutton size="small" icon="inkCopy.jpeg" onClick="s_ink->getClipboard(),SLOT(copy());" enabled="s_ink->getClipboard(),SIGNAL(selectionChanged(bool))"/>
+    </section>
+    <section title="font">
+      <vertLayout>
+        <horizLayout>
+          <lineEdit

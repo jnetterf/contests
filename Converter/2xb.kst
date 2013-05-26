@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <kst version="2.0" >
+  <data>
+   <source reader="ASCII" file="/home/cbn/tmp.dat" >
+    <properties columntype="0" headerstart="0" delimiters="#/c!;" />
+   </source>
+  </data>
+  <variables>
+   <datavector field="INDEX" descriptiveName="DS-tmp.dat/INDEX" file="/home/cbn/tmp.dat" start="0" />
+   <datavector field="1" descriptiveName="DS-tmp.dat/1" file="/home/cbn/tmp.dat" start="0" />
+   <datavector field="2" descriptiveName="DS-tmp.dat/2" file="/home/cbn/tmp.dat" start="0" />
+   <datavector field="3" descriptiveName="DS-tmp.dat/3" file="/home/cbn/tmp.dat" start="0" />
+   <datavector field="4" descriptiveName="DS-tmp.dat/4" file="/home/cbn/tmp.dat" start="0" />
+  </variables>
+  <relations>
+   <curve barstyle="0" xvector="DS-tmp.dat/INDEX" pointtype="0" linestyle="0" descriptiveName="1" yvector="DS-tmp.dat/1" color="#ff0000" linewidth="0" />
+   <curve barstyle="0" xvector="DS-tmp.dat/INDEX" pointtype="0" linestyle="0" descriptiveName="2" yvector="DS-tmp.dat/2" color="#0000ff" linewidth="0" />
+   <curve barstyle="0" xvector="DS-tmp.dat/INDEX" pointtype="0" linestyle="0" descriptiveName="3" yvector="DS-tmp.dat/3" color="#0000aa" linewidth="0" />
+   <curve barstyle="0" xvector="DS-tmp.dat/INDEX" pointtype="0" linestyle="0" descriptiveName="4" yvector="DS-tmp.dat/4" color="#000000" linewidth="0" />
+  </relations>
+  <graphics>
+   <view>
+    <plot width="1276" height="324" descriptiveName="P1" >
+     <relativesize width="1" height="0.5" centerx="0" centery="0" />
+     <cartesianrender>
+      <relation tag="1" />
+      <relation tag="3" />
+     </cartesianrender>
+    </plot>
+    <plot width="1276" height="324" descriptiveName="P2" >
+     <relativesize width="1" height="0.5" centerx="0" centery="0.5" />
+     <cartesianrender>
+      <relation tag="2" />
+      <relation tag="4" />
+     </cartesianrender>
+    </plot>
+   </view>
+  </graphics>
+ </kst>

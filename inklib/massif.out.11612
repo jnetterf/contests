@@ -1,0 +1,591 @@
+desc: (none)
+cmd: ./ink
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=61094855
+mem_heap_B=590124
+mem_heap_extra_B=258396
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=120960895
+mem_heap_B=1048812
+mem_heap_extra_B=550940
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=154949269
+mem_heap_B=1305732
+mem_heap_extra_B=717036
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=194129750
+mem_heap_B=1601916
+mem_heap_extra_B=908508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=233749612
+mem_heap_B=1909580
+mem_heap_extra_B=1102108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=280806463
+mem_heap_B=2265332
+mem_heap_extra_B=1332076
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=345527518
+mem_heap_B=2754596
+mem_heap_extra_B=1648364
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=402904772
+mem_heap_B=3188348
+mem_heap_extra_B=1928764
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=469424490
+mem_heap_B=3707508
+mem_heap_extra_B=2253836
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=509147476
+mem_heap_B=4007820
+mem_heap_extra_B=2447964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=579765431
+mem_heap_B=4541652
+mem_heap_extra_B=2793068
+mem_stacks_B=0
+heap_tree=detailed
+n4: 4541652 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4115736 0x40BFEF: __gnu_cxx::new_allocator<std::_List_node<wchar_t> >::allocate(unsigned long, void const*) (new_allocator.h:92)
+  n1: 4115736 0x40BDAC: std::_List_base<wchar_t, std::allocator<wchar_t> >::_M_get_node() (stl_list.h:327)
+   n1: 4115736 0x40B71D: std::list<wchar_t, std::allocator<wchar_t> >::_M_create_node(wchar_t const&) (stl_list.h:473)
+    n1: 4115736 0x40AE67: std::list<wchar_t, std::allocator<wchar_t> >::insert(std::_List_iterator<wchar_t>, wchar_t const&) (list.tcc:102)
+     n1: 4115736 0x4090A9: IUniqueContainer<wchar_t>::insert(wchar_t const&) (icontainer.h:231)
+      n1: 4115736 0x408B82: IParagraph::insertChar(wchar_t const&) (iparagraph.h:210)
+       n1: 4115736 0x408D6E: IParagraph::insertChars(wchar_t const*) (iparagraph.h:222)
+        n1: 4115736 0x40AE3E: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::redo() (iaction.h:44)
+         n1: 4115736 0x409056: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::ISimpleAction(IParagraph*, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int, char const*) (iaction.h:39)
+          n1: 4115736 0x408B06: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+           n0: 4115736 0x408952: main (main.cpp:12)
+ n1: 196056 0x408AA4: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+  n0: 196056 0x408952: main (main.cpp:12)
+ n0: 150726 in 120 places, all below massif's threshold (01.00%)
+ n1: 79134 0x4E78A59: ??? (in /usr/lib/libaspell.so.15.1.5)
+  n0: 79134 in 3 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=12
+#-----------
+time=650383386
+mem_heap_B=5075484
+mem_heap_extra_B=3138188
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=721001341
+mem_heap_B=5609316
+mem_heap_extra_B=3483292
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=756309877
+mem_heap_B=5876196
+mem_heap_extra_B=3655836
+mem_stacks_B=0
+heap_tree=detailed
+n3: 5876196 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5389656 0x40BFEF: __gnu_cxx::new_allocator<std::_List_node<wchar_t> >::allocate(unsigned long, void const*) (new_allocator.h:92)
+  n1: 5389656 0x40BDAC: std::_List_base<wchar_t, std::allocator<wchar_t> >::_M_get_node() (stl_list.h:327)
+   n1: 5389656 0x40B71D: std::list<wchar_t, std::allocator<wchar_t> >::_M_create_node(wchar_t const&) (stl_list.h:473)
+    n1: 5389656 0x40AE67: std::list<wchar_t, std::allocator<wchar_t> >::insert(std::_List_iterator<wchar_t>, wchar_t const&) (list.tcc:102)
+     n1: 5389656 0x4090A9: IUniqueContainer<wchar_t>::insert(wchar_t const&) (icontainer.h:231)
+      n1: 5389656 0x408B82: IParagraph::insertChar(wchar_t const&) (iparagraph.h:210)
+       n1: 5389656 0x408D6E: IParagraph::insertChars(wchar_t const*) (iparagraph.h:222)
+        n1: 5389656 0x40AE3E: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::redo() (iaction.h:44)
+         n1: 5389656 0x409056: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::ISimpleAction(IParagraph*, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int, char const*) (iaction.h:39)
+          n1: 5389656 0x408B06: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+           n0: 5389656 0x408952: main (main.cpp:12)
+ n1: 256680 0x408AA4: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+  n0: 256680 0x408952: main (main.cpp:12)
+ n0: 229860 in 121 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=15
+#-----------
+time=791619296
+mem_heap_B=6143148
+mem_heap_extra_B=3828396
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=826927832
+mem_heap_B=6410028
+mem_heap_extra_B=4000940
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=867676969
+mem_heap_B=6783532
+mem_heap_extra_B=4200020
+mem_stacks_B=0
+heap_tree=detailed
+n3: 6783532 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6193152 0x40BFEF: __gnu_cxx::new_allocator<std::_List_node<wchar_t> >::allocate(unsigned long, void const*) (new_allocator.h:92)
+  n1: 6193152 0x40BDAC: std::_List_base<wchar_t, std::allocator<wchar_t> >::_M_get_node() (stl_list.h:327)
+   n1: 6193152 0x40B71D: std::list<wchar_t, std::allocator<wchar_t> >::_M_create_node(wchar_t const&) (stl_list.h:473)
+    n1: 6193152 0x40AE67: std::list<wchar_t, std::allocator<wchar_t> >::insert(std::_List_iterator<wchar_t>, wchar_t const&) (list.tcc:102)
+     n1: 6193152 0x4090A9: IUniqueContainer<wchar_t>::insert(wchar_t const&) (icontainer.h:231)
+      n1: 6193152 0x408B82: IParagraph::insertChar(wchar_t const&) (iparagraph.h:210)
+       n1: 6193152 0x408D6E: IParagraph::insertChars(wchar_t const*) (iparagraph.h:222)
+        n1: 6193152 0x40AE3E: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::redo() (iaction.h:44)
+         n1: 6193152 0x409056: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::ISimpleAction(IParagraph*, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int, char const*) (iaction.h:39)
+          n1: 6193152 0x408B06: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+           n0: 6193152 0x408952: main (main.cpp:12)
+ n0: 295396 in 121 places, all below massif's threshold (01.00%)
+ n1: 294984 0x408AA4: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+  n0: 294984 0x408952: main (main.cpp:12)
+#-----------
+snapshot=18
+#-----------
+time=911812870
+mem_heap_B=7084388
+mem_heap_extra_B=4415724
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=973603691
+mem_heap_B=7551500
+mem_heap_extra_B=4717692
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1035387888
+mem_heap_B=8018564
+mem_heap_extra_B=5019628
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1082457987
+mem_heap_B=8374412
+mem_heap_extra_B=5249676
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1129527203
+mem_heap_B=8730188
+mem_heap_extra_B=5479692
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1164829998
+mem_heap_B=8997092
+mem_heap_extra_B=5652220
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1235434705
+mem_heap_B=9530828
+mem_heap_extra_B=5997260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1306039412
+mem_heap_B=10064564
+mem_heap_extra_B=6342300
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1353108628
+mem_heap_B=10420340
+mem_heap_extra_B=6572316
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1388411423
+mem_heap_B=10687244
+mem_heap_extra_B=6744844
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1459016130
+mem_heap_B=11220980
+mem_heap_extra_B=7089884
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1506085346
+mem_heap_B=11576756
+mem_heap_extra_B=7319900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1553155445
+mem_heap_B=11932604
+mem_heap_extra_B=7549932
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1588457357
+mem_heap_B=12199436
+mem_heap_extra_B=7722444
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1632597222
+mem_heap_B=12533132
+mem_heap_extra_B=7938156
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1676737087
+mem_heap_B=12866828
+mem_heap_extra_B=8153868
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1725971272
+mem_heap_B=13369900
+mem_heap_extra_B=8394356
+mem_stacks_B=0
+heap_tree=peak
+n3: 13369900 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 12386304 0x40BFEF: __gnu_cxx::new_allocator<std::_List_node<wchar_t> >::allocate(unsigned long, void const*) (new_allocator.h:92)
+  n1: 12386304 0x40BDAC: std::_List_base<wchar_t, std::allocator<wchar_t> >::_M_get_node() (stl_list.h:327)
+   n1: 12386304 0x40B71D: std::list<wchar_t, std::allocator<wchar_t> >::_M_create_node(wchar_t const&) (stl_list.h:473)
+    n1: 12386304 0x40AE67: std::list<wchar_t, std::allocator<wchar_t> >::insert(std::_List_iterator<wchar_t>, wchar_t const&) (list.tcc:102)
+     n1: 12386304 0x4090A9: IUniqueContainer<wchar_t>::insert(wchar_t const&) (icontainer.h:231)
+      n1: 12386304 0x408B82: IParagraph::insertChar(wchar_t const&) (iparagraph.h:210)
+       n1: 12386304 0x408D6E: IParagraph::insertChars(wchar_t const*) (iparagraph.h:222)
+        n1: 12386304 0x40AE3E: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::redo() (iaction.h:44)
+         n1: 12386304 0x409056: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::ISimpleAction(IParagraph*, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int, char const*) (iaction.h:39)
+          n1: 12386304 0x408B06: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+           n0: 12386304 0x408952: main (main.cpp:12)
+ n1: 589896 0x408AA4: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+  n0: 589896 0x408952: main (main.cpp:12)
+ n0: 393700 in 121 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=35
+#-----------
+time=1792185520
+mem_heap_B=13804908
+mem_heap_extra_B=8717948
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1858399844
+mem_heap_B=14305452
+mem_heap_extra_B=9041532
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1924614168
+mem_heap_B=14805996
+mem_heap_extra_B=9365132
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1990828492
+mem_heap_B=15306540
+mem_heap_extra_B=9688716
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2057042816
+mem_heap_B=15807084
+mem_heap_extra_B=10012300
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2123257140
+mem_heap_B=16307628
+mem_heap_extra_B=10335884
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2189471464
+mem_heap_B=16808172
+mem_heap_extra_B=10659468
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2255685788
+mem_heap_B=17308716
+mem_heap_extra_B=10983052
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2321900112
+mem_heap_B=17809260
+mem_heap_extra_B=11306636
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2388114436
+mem_heap_B=18309804
+mem_heap_extra_B=11630220
+mem_stacks_B=0
+heap_tree=detailed
+n3: 18309804 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 17164224 0x40BFEF: __gnu_cxx::new_allocator<std::_List_node<wchar_t> >::allocate(unsigned long, void const*) (new_allocator.h:92)
+  n1: 17164224 0x40BDAC: std::_List_base<wchar_t, std::allocator<wchar_t> >::_M_get_node() (stl_list.h:327)
+   n1: 17164224 0x40B71D: std::list<wchar_t, std::allocator<wchar_t> >::_M_create_node(wchar_t const&) (stl_list.h:473)
+    n1: 17164224 0x40AE67: std::list<wchar_t, std::allocator<wchar_t> >::insert(std::_List_iterator<wchar_t>, wchar_t const&) (list.tcc:102)
+     n1: 17164224 0x4090A9: IUniqueContainer<wchar_t>::insert(wchar_t const&) (icontainer.h:231)
+      n1: 17164224 0x408B82: IParagraph::insertChar(wchar_t const&) (iparagraph.h:210)
+       n1: 17164224 0x408D6E: IParagraph::insertChars(wchar_t const*) (iparagraph.h:222)
+        n1: 17164224 0x40AE3E: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::redo() (iaction.h:44)
+         n1: 17164224 0x409056: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::ISimpleAction(IParagraph*, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int, char const*) (iaction.h:39)
+          n1: 17164224 0x408B06: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+           n0: 17164224 0x408952: main (main.cpp:12)
+ n1: 817416 0x408AA4: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+  n0: 817416 0x408952: main (main.cpp:12)
+ n0: 328164 in 121 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=45
+#-----------
+time=2454328760
+mem_heap_B=18810348
+mem_heap_extra_B=11953804
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2520543084
+mem_heap_B=19310892
+mem_heap_extra_B=12277388
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2586757408
+mem_heap_B=19811436
+mem_heap_extra_B=12600972
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2630900009
+mem_heap_B=20145108
+mem_heap_extra_B=12816700
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=2675043186
+mem_heap_B=20478828
+mem_heap_extra_B=13032428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=2709031560
+mem_heap_B=20735748
+mem_heap_extra_B=13198524
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2743019934
+mem_heap_B=20992668
+mem_heap_extra_B=13364620
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2777008308
+mem_heap_B=21249588
+mem_heap_extra_B=13530716
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2810997565
+mem_heap_B=21506580
+mem_heap_extra_B=13696828
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2844985939
+mem_heap_B=21763500
+mem_heap_extra_B=13862924
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=2878974313
+mem_heap_B=22020420
+mem_heap_extra_B=14029020
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2912962687
+mem_heap_B=22277340
+mem_heap_extra_B=14195116
+mem_stacks_B=0
+heap_tree=detailed
+n3: 22277340 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 20951472 0x40BFEF: __gnu_cxx::new_allocator<std::_List_node<wchar_t> >::allocate(unsigned long, void const*) (new_allocator.h:92)
+  n1: 20951472 0x40BDAC: std::_List_base<wchar_t, std::allocator<wchar_t> >::_M_get_node() (stl_list.h:327)
+   n1: 20951472 0x40B71D: std::list<wchar_t, std::allocator<wchar_t> >::_M_create_node(wchar_t const&) (stl_list.h:473)
+    n1: 20951472 0x40AE67: std::list<wchar_t, std::allocator<wchar_t> >::insert(std::_List_iterator<wchar_t>, wchar_t const&) (list.tcc:102)
+     n1: 20951472 0x4090A9: IUniqueContainer<wchar_t>::insert(wchar_t const&) (icontainer.h:231)
+      n1: 20951472 0x408B82: IParagraph::insertChar(wchar_t const&) (iparagraph.h:210)
+       n1: 20951472 0x408D6E: IParagraph::insertChars(wchar_t const*) (iparagraph.h:222)
+        n1: 20951472 0x40AE3E: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::redo() (iaction.h:44)
+         n1: 20951472 0x409056: ISimpleAction<IParagraph, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int>::ISimpleAction(IParagraph*, void (IParagraph::*)(wchar_t const*), wchar_t const*, bool (IParagraph::*)(int const&), int, char const*) (iaction.h:39)
+          n1: 20951472 0x408B06: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+           n0: 20951472 0x408952: main (main.cpp:12)
+ n1: 997704 0x408AA4: IParagraph::insertChars_action(wchar_t const*) (iparagraph.h:84)
+  n0: 997704 0x408952: main (main.cpp:12)
+ n0: 328164 in 121 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=57
+#-----------
+time=2946951061
+mem_heap_B=22534260
+mem_heap_extra_B=14361212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2980940318
+mem_heap_B=22791252
+mem_heap_extra_B=14527324
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=3014928692
+mem_heap_B=23048172
+mem_heap_extra_B=14693420
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=3048917066
+mem_heap_B=23305092
+mem_heap_extra_B=14859516
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=3082905440
+mem_heap_B=23562012
+mem_heap_extra_B=15025612
+mem_stacks_B=0
+heap_tree=empty

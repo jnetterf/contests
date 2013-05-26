@@ -1,0 +1,41 @@
+# (C) Joshua Netterfield 2009
+
+<windowsize>                        IGNORE
+<graphicsautosave>                  IGNORE
+<kstfile>                           <data><NEW source>
+#    <tag>%FILETAG</tag>             <data><source file="%FILETAG">
+    <filename>%FILENAME</filename>  <data><source file="%FILENAME">
+    <type>%FILETYPE</type>          <data><source reader="^FILETYPE">
+    <index vector="%VECTOR">        IGNORE
+    <comment delimiters="%DL">      <data><source><properties delimiters="%DL">
+    <columns type="%COLUMNTYPE">    <data><source><properties columntype="%COLUMNTYPE">
+    <header start="%HEADERSTART">   <data><source><properties headerstart="%HEADERSTART">
+<vector>                            <variables><NEW datavector>
+    <tag>%FILETAG</tag>             <variables><datavector descriptiveName="%FILETAG">
+    <provider>%PROV</>              IGNORE
+    <filename>%FILENAME</filename>  <variables><datavector file="%FILENAME">
+    <field>%FIELD</field>           <variables><datavector field="%FIELD">
+    <start>%START</start>           <variables><datavector start="%START">
+    <num>                           IGNORE
+<curve>                             <relations><NEW curve>
+    <tag>%FILETAG</tag>             <relations><curve descriptiveName="%FILETAG">
+    <xvectag>%TAG</xvectag>         <relations><curve xvector="%TAG">
+    <yvectag>%YAG</yvectag>         <relations><curve yvector="%YAG">
+    <legend>                        IGNORE
+    <color>%COLOR</color>           <relations><curve color="%COLOR">
+#    <hasLines/>                     <relations><curve haslines="true">
+#Must implement the above behaviour
+    <lineWidth>%WIDTH</linewidth>   <relations><curve linewidth="%WIDTH">
+    <lineStyle>%STYLE</linestyle>   <relations><curve linestyle="%STYLE">
+    <pointType>%PTYPE</pointType>   <relations><curve pointtype="%PTYPE">
+    <pointDensity>%DENSE></pointDensity>    <relations><curve pointdensity="%DENSE">
+    <barStyle><%STLYE></barStyle>   <relations><curve barstyle="%STYLE">
+<plot>                              <graphics><orphans><NEW plot>
+#    <border color="%CLR">
+#    <border width="%WTH">
+#    <border padding="%P">
+#    <border margin="%MG">
+    <tag>%TAG</>                    <graphics><orphans><plot descriptiveName="%TAG">
+    <aspect x="%1" y="%2" w="%3" h="%4">    <graphics><orphans><plot><relativesize width="%3" height="%4" centerx="%1" centery="%2">
+    <idealsize w="%w" h="%h">       <graphics><orphans><plot width="%w" height="%h">
+    <curvetag>%CT</curvetag>        <graphics><orphans><plot><cartesianrender><NEW relation tag="%CT">
